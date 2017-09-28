@@ -5,6 +5,7 @@ configure do
 enable :Sessions
 set :sessions_secret, "secret"
 end
+end
 
 get '/' do
   erb :index
